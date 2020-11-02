@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <style>
+        body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: -120;
+  background-color:#111;
+}
+
+.right {
+  right: 0;
+  background-color:black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 450px;
+  border-radius: 50%;
+  
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.previous {
+  background-color:transparent;
+  color: white;
+}
+
+.next {
+  background-color:transparent;
+  color:white;
+}
+
+.round {
+  border-radius: 50%;
+}
+#mySidenav a {
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#home {
+    bottom:250px;
+    background-color:darkslategrey;
+}
+
+#about {
+  bottom: 200px;
+  background-color: #381d1b;
+}
+
+#registration {
+  bottom: 140px;
+  background-color: dimgray;
+}
+
+#items {
+  bottom: 80px;
+  background-color:#555;
+}
+
+#help {
+  bottom: 20px;
+  background-color: slategrey;
+}
+    </style>
+            <body>
+
+                <div class="split left">
+                    <div class="centered">
+                      
+                      <h2>About Us</h2>
+                      <p>We specialise in the finest quality jewellery repairs, remodelling and custom designs,
+                         and offer a one-on-one, personalised design service with quality workmanship and attention to detail.
+                          Experience a seamless and educational journey to choosing the perfect jewellery by getting involved 
+                          with us. Our jewellery collection includes an exclusive range of Varieties
+                          available from all around the world, including GIA Certified, Australian Argyle and Antwerp Diamonds. 
+                          If you have something out of the ordinary in mind, we can source this for you. 
+                      </p>
+                      <a href="http://127.0.0.1:5500/home.html" class="previous round">&#8249;</a>
+                  <a href="http://127.0.0.1:5500/registration.html" class="next round">&#8250;</a>
+                    </div>
+                   
+                  </div>
+                  
+                <div class="split right">
+                  <div class="centered">
+                    <img src="girl earing.png" alt="girl with earing">
+                    <h2>Mayur Jewells</h2>
+                    <p>We are here for you.</p>
+                  </div>
+                  <div id="mySidenav" class="sidenav">
+                    <a href="http://127.0.0.1:5500/home.html" id="home">Home</a>
+                    <a href="http://127.0.0.1:5500/about.html" id="about">About</a>
+                    <a href="http://127.0.0.1:5500/registration.html" id="registration">Registration</a>
+                    <a href="http://127.0.0.1:5500/items.html" id="items">Items</a>
+                    <a href="http://127.0.0.1:5500/help.html" id="help">Help</a>
+                  </div>
+                  
+                  <div style="margin-left:80px;">
+                     </div>     
+                </div>
+                  
+               
+                
+            </body>        
+
+</html>            
